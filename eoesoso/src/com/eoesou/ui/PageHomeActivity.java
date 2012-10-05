@@ -1,7 +1,5 @@
 package com.eoesou.ui;
 
-import com.eoesou.R;
-
 import android.os.Bundle;
 import android.widget.TextView;
 public class PageHomeActivity extends SidebarFragmentActivity{
@@ -20,7 +18,7 @@ public class PageHomeActivity extends SidebarFragmentActivity{
 		
 	}
 	/**
-	 * 初始化头�?
+	 * 初始化头�?
 	 */
 	private void InitTextView() {
 		textview_title_current = (TextView) findViewById(R.id.textview_title_current);

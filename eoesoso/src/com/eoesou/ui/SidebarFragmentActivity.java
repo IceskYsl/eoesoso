@@ -1,9 +1,5 @@
 package com.eoesou.ui;
 
-import com.eoesou.R;
-import com.eoesou.ui.*;
-import com.eoesou.ui.MyHorizontalScrollView.SizeCallback;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +8,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.HorizontalScrollView;
+
+import com.eoesou.ui.MyHorizontalScrollView.SizeCallback;
 
 public abstract class SidebarFragmentActivity extends Activity {
 
