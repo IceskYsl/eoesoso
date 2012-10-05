@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eoesoso</string>
+    <string name="text_tencent_app_center">腾讯应用中心</string>
+        
+    <string name="text_serch_hint">输入商品关键字搜索</string>
+    <string name="text_hint_input_product_name">请输入商品名称</string>
+    <string name="text_hint_input_phone_number">请输入您的手机号码</string>
+    <string name="text_hint_input_barcode">请输入商品的条码数字</string>
+    <string name="text_hint_input_nickname">请输入4&#8211;20字符的昵称</string>
+    
+    <string name="text_product_name">商品名称</string>
+        
+    <string name="text_loading">数据加载中，请稍候</string>
+    <string name="text_page_loading_progress">正在努力加载页面，进度 %1$s%%</string>
+    
+    
+    <string name="text_tab_home">首页</string>
+    <string name="text_tab_discount">设置</string>
+    <string name="text_tab_group">我的主页</string>
+    <string name="text_tab_search">搜索</string>
+    <string name="text_tab_scan">扫描</string>
+    <string name="text_tab_my_list">通知</string>
+    <string name="text_tab_more">退出登录</string>
+    <string name="text_tab_friend">我的喜欢</string>
+    <string name="text_more_logout">退出登录</string>
+</resources>

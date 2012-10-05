@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/side_bar_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/side_clickable"
+        android:text="@string/text_tab_home"
+        android:textColor="@drawable/side_bar_text"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/side_bar_seperator" />
+
+    <Button
+        android:id="@+id/button_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/side_clickable"
+        android:text="@string/text_tab_my_list"
+        android:textColor="@drawable/side_bar_text"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/side_bar_seperator" />
+
+    <Button
+        android:id="@+id/button_mylike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/side_clickable"
+        android:text="@string/text_tab_friend"
+        android:textColor="@drawable/side_bar_text"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/side_bar_seperator" />
+
+    <Button
+        android:id="@+id/button_myhomepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/side_clickable"
+        android:text="@string/text_tab_group"
+        android:textColor="@drawable/side_bar_text"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/side_bar_seperator" />
+
+    <Button
+        android:id="@+id/button_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/side_clickable"
+        android:text="@string/text_tab_discount"
+        android:textColor="@drawable/side_bar_text"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/side_bar_seperator" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/side_clickable"
+        android:text="@string/text_tab_more"
+        android:textColor="@drawable/side_bar_text"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/side_bar_seperator" />
+
+</LinearLayout>

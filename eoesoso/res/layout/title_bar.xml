@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout_title"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="5dp"
+	android:paddingBottom="5dp"
+	android:background="@drawable/title_bg">
+
+    <LinearLayout android:id="@+id/view_side_bar_response_area"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+		android:layout_marginLeft="5dp"
+		android:layout_alignParentLeft="true"
+		android:gravity="center_vertical">
+		<RelativeLayout
+		     android:layout_width="wrap_content" android:layout_height="wrap_content">
+		    <ImageView android:id="@+id/imageview_navi_icon"
+	        	android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:scaleType="center"
+	        	android:src="@drawable/action_logo"/>
+	    
+		    <ImageView android:id="@+id/imageview_clickable_tip"
+		        android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:layout_toRightOf="@id/imageview_navi_icon"
+		        android:layout_alignBottom="@id/imageview_navi_icon"
+		        android:src="@drawable/clickable_tip"/>
+		</RelativeLayout>
+		
+		<TextView android:id="@+id/textview_title_current"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:textSize="16sp"
+			android:text="asdcas"
+			android:textColor="#FFFFFF"
+			android:shadowColor="@android:color/black"
+			android:shadowDy="-1"
+			android:shadowRadius="1" />
+    </LinearLayout>
+    
+   	<LinearLayout android:id="@+id/linearlayout_action"
+	    android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:gravity="center_vertical"/>
+</RelativeLayout>
