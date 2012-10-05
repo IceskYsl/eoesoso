@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">eoesoso</string>
+    <string name="app_name">eoe搜搜</string>
     <string name="text_tencent_app_center">腾讯应用中心</string>
         
     <string name="text_serch_hint">输入商品关键字搜索</string>
