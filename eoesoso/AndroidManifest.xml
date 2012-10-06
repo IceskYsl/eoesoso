@@ -31,6 +31,7 @@
         <activity android:name=".ui.PhotoDetailsActivity" />
         <service android:name=".service.SosoService"></service>
     </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
 <instrumentation android:name="android.test.InstrumentationTestRunner"
 			android:targetPackage="com.eoesou" 
 			android:label="Tests for My App" />

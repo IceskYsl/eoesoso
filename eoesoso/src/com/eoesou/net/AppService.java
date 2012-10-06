@@ -35,14 +35,12 @@ public class AppService {
 	}
 	
 	public String getCatygories(String url) throws Exception {
-		Log.i("@@@", "获取所有分类的url=" + Constants.getCatygoriesUrl());
 		HttpClient client = new DefaultHttpClient();
 		HttpGet httpGet = new HttpGet(Constants.getCatygoriesUrl());
 		HttpResponse response = client.execute(httpGet);
 		String result = null;
 		if (response.getStatusLine().getStatusCode()==200) {
 			result = EntityUtils.toString(response.getEntity());
-          Log.i("@@@", result);
 		}
 //		URL url1 = new URL(Constants.getCatygoriesUrl());
 //        HttpURLConnection conn = (HttpURLConnection) url1.openConnection();
