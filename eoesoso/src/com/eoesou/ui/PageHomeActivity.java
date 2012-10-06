@@ -1,5 +1,7 @@
 package com.eoesou.ui;
 
+import com.eoesou.R;
+
 import android.os.Bundle;
 import android.widget.TextView;
 public class PageHomeActivity extends SidebarFragmentActivity{
