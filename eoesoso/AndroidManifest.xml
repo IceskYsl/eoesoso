@@ -10,6 +10,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <uses-library android:name="android.test.runner" />
         <activity
             android:name=".ui.PageHomeActivity"
             android:label="@string/app_name" >
@@ -30,5 +31,7 @@
         <activity android:name=".ui.PhotoDetailsActivity" />
         <service android:name=".service.SosoService"></service>
     </application>
-
+<instrumentation android:name="android.test.InstrumentationTestRunner"
+			android:targetPackage="com.eoesou" 
+			android:label="Tests for My App" />
 </manifest>
