@@ -31,5 +31,9 @@
         <item name="android:windowBackground">@android:color/white</item>
     </style>
     
-    
+        <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">12.0dip</item>
+        <item name="android:progressDrawable">@drawable/foot_ratingbar</item>
+        <item name="android:minHeight">12.0dip</item>
+    </style>
 </resources>

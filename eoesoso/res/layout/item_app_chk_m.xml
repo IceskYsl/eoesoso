@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_app_m_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/item_app_m_icon"
+        android:layout_width="42.0dip"
+        android:layout_height="42.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_def_app" />
+
+    <Button
+        android:id="@+id/item_app_m_operate"
+        android:layout_width="28.0dip"
+        android:layout_height="28.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26.0dip"
+        android:layout_marginTop="8.0dip"
+        android:background="@drawable/new_download"
+        android:focusable="false"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/item_app_m_state"
+        android:layout_width="70.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/item_app_m_operate"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="4.0dip"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ff6b7f8c"
+        android:textSize="12.0sp" />
+
+    <ImageView
+        android:id="@+id/item_app_m_vseparate"
+        android:layout_width="wrap_content"
+        android:layout_height="54.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_toLeftOf="@+id/item_app_m_state"
+        android:src="@drawable/vertial"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/item_app_m_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_toLeftOf="@+id/item_app_m_vseparate"
+        android:layout_toRightOf="@id/item_app_m_icon"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="#ff3a3a3a"
+        android:textSize="16.0dip" />
+
+    <RatingBar
+        android:id="@+id/item_app_m_rating"
+        style="@style/foodRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_app_m_title"
+        android:layout_toRightOf="@id/item_app_m_icon"
+        android:isIndicator="true"
+        android:max="10"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/item_app_m_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_app_m_rating"
+        android:layout_toLeftOf="@+id/item_app_m_vseparate"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textSize="12.0sp" />
+
+    <TextView
+        android:id="@+id/item_app_m_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_app_m_rating"
+        android:layout_toLeftOf="@+id/item_app_m_vseparate"
+        android:layout_toRightOf="@+id/item_app_m_icon"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textSize="12.0sp" />
+
+</RelativeLayout>

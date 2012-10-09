@@ -4,25 +4,30 @@ import com.eoesou.R;
 
 import android.os.Bundle;
 import android.widget.TextView;
-public class PageHomeActivity extends SidebarFragmentActivity{
 
+public class AppInfoActivity extends SidebarFragmentActivity {
 	TextView textview_title_current;
 	@Override
 	public int getLayoutResId() {
-		return R.layout.home_page;
+		// TODO Auto-generated method stub
+		return R.layout.appinfo;
 	}
-
 
 	@Override
-	public void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		InitTextView();
-		
 	}
+	
 	private void InitTextView() {
 		textview_title_current = (TextView) findViewById(R.id.textview_title_current);
-		textview_title_current.setText("‰ºò‰∫øÊêúÊêú");
+		textview_title_current.setText("”¶”√œÍ«È");
+		
+		
 
 
 	}
 }
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="52.0dip"
+    android:background="@drawable/new_background"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <Button
+        android:id="@+id/search_bar_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="right|center"
+        android:text="搜索"
+        android:textColor="@android:color/white" />
+
+    <AutoCompleteTextView
+        android:id="@+id/search_bar_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="7.0dip"
+        android:layout_toLeftOf="@+id/search_bar_search"
+        android:layout_weight="1.0"
+        android:background="@drawable/list_search_box"
+        android:completionThreshold="1"
+        android:hint="输入关键字"
+        android:paddingRight="35.0dip"
+        android:scrollHorizontally="true"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/search_bar_clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/search_bar_text"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="16.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="16.0dip"
+        android:background="@drawable/list_search_icon_close" />
+
+</RelativeLayout>
